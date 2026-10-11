@@ -18,24 +18,22 @@ export const MUSIC_CONFIG: MusicPlayerConfig = {
   autoPlayOnReveal: true,
   tracks: [
     {
-      id: 'sparkle-chimes',
-      title: 'Sparkle - Celestial Chimes & Music Box',
-      artist: 'Nostalgic Studio Melodies',
-      url: '/music/sparkle-chimes.wav',
-      coverUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80',
-    },
-    {
       id: 'warm-memories',
-      title: 'Warm Memories & Soft Piano',
+      title: 'Warm Memories',
       artist: 'Acoustic Serenade',
-      url: '/music/warm-memories.wav',
-      coverUrl: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=400&q=80',
-    },
-    {
-      id: 'starlight-theme',
-      title: 'Midnight Starlight Theme',
+      url: '/music/warm-memories.mp3',
+      coverUrl: 'https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=400&q=80',
+    }, {
+      id: 'HAPPY BIRTHDAY TO YOU',
+      title: 'HAPPY BIRTHDAY TO YOU',
       artist: 'Dreamscape Ensemble',
-      url: '/music/starlight-theme.wav',
+      url: '/music/HAPPY BIRTHDAY TO YOU.mp3',
+      coverUrl: 'https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=400&q=80',
+    }, {
+      id: 'Count on Me',
+      title: 'Count on Me',
+      artist: 'Bruno Mars',
+      url: '/music/Count on Me.mp3',
       coverUrl: 'https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=400&q=80',
     },
   ],
